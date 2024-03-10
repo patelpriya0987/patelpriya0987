@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Admin-panel</title>
+
+      <!-- favicon -->
+      <link rel="icon" href="../images/favicon.ico">
+      <!-- icon -->
+      <link rel="stylesheet" href="../css/all.min.css">
+      <!-- fonts -->
+      <link rel="stylesheet" href="../css/fonts.css">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+      <main>
+            <div class="side-bar">
+                  <div class="nav-bar">
+                        <div class="w-2 logo">
+                              <img src="../images/logo-light.png" alt="logo-light">
+                        </div>
+                        <nav>
+                              <h5>menu</h5>
+                              <ul>
+                                    <li>
+                                          <a href="../index.html" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-solid fa-house"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Dashboard
+                                                </div>
+                                          </a>
+                                          
+                                    </li>
+                                    <li>
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-regular fa-calendar-days"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Calender
+                                                </div>
+                                          </a>
+                                    </li>
+                                    <li>
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-regular fa-comment"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Chat
+                                                </div>
+                                          </a>
+                                    </li>
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-solid fa-store"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Ecommerce
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="#">Products</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Product Details</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Orders</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Customers</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Cart</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Checkout</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Shops</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Add Products</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-regular fa-envelope"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Email
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="#">Inbox</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Read Email</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                                    <li>
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-solid fa-border-top-left"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Kanban board
+                                                </div>
+                                          </a>
+                                    </li>
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-brands fa-flipboard"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Layout
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="">Horizontal</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="">Light Sidebar</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="">Compact Sidebar</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="">Icons Sidebar</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="">Boxed Sidebar</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                              </ul>
+
+                              <h5>pages</h5>
+                              <ul>
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-regular fa-circle-user"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Authentication
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="pages/login.html">Login</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="pages/signin.html">Register</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Recover Password</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Lock Screen</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-regular fa-address-card"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Utility
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="#">Starter Page</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Maintenance</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Comming Soon</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Timeline</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">FAQs</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Pricing</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Error 404</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Error 500</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                              </ul>
+
+                              <h5>components</h5>
+                              <ul>
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-solid fa-pen-ruler"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      UI Elemnets
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="#">Alerts</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Buttons</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Cards</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Carousel</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Dropdowns</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Grid</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Images</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Models</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Range Slider</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Progress Bar</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Sweet alerts</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Tabs & accordions</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Typography</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Video</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Genral</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-solid fa-eraser"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Forms
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="#">Form Elements</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Form validation</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Form Advanced</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Form Editor</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Form File Upload</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Form Wizard</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Form Mask</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-solid fa-table-list"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Tables
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="#">Basic Tables</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Advanced Tables</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-solid fa-chart-simple"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Charts
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="./pages/chart.html">Apex charts</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Chartjs charts</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">E charts</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-solid fa-paintbrush"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Icons
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="#">Boxicons</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Material Desine</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Dripicons</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Font awesome 5</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-solid fa-location-dot"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Maps
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="#">Google Maps</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Leaflet Maps</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                                    
+                                    <li class="dropdown">
+                                          <a href="#" class="d-flex">
+                                                <div class="nav-icon">
+                                                      <i class="fa-solid fa-share-nodes"></i>
+                                                </div>
+                                                <div class="nav-content">
+                                                      Multi Level
+                                                </div>
+                                                <div class="arrow">
+                                                      <i class="fa-solid fa-angle-down"></i>
+                                                </div>
+                                          </a>
+                                          <div class="dropdown-content">
+                                                <ul>
+                                                      <li>
+                                                            <a href="#">Level 1.1</a>
+                                                      </li>
+                                                      <li>
+                                                            <a href="#">Level 1.2</a>
+                                                      </li>
+                                                </ul>
+                                          </div>
+                                    </li>
+                              </ul>
+                        </nav>
+                  </div>
+            </div>
+            <header>
+                        
+                <div class="row align-center">
+                      <div class="w-2 logo">
+                            <img src="../images/logo-light.png" alt="logo-light">
+                      </div>
+                      <div class="w-4">
+                            <div class="icons d-flex align-center">
+                                  <div class="bars">
+                                        <i class="fa-solid fa-bars-staggered"></i>
+                                  </div>
+                                  <div class="search">
+                                        <input type="text" placeholder="search">
+                                  </div>
+                                  <div class="mega-menu p8-12">
+                                        <button> Mega Menu <i class="fa-solid fa-angle-down"></i> </button>
+                                  </div>
+                            </div>
+                            
+                      </div>
+                      <div class="w-5">
+                            <div class="right d-flex ">
+                                  <div class="header-icons d-flex">
+                                        <div class="country p8-12">
+                                              <button>
+                                                    <img src="../images/us.jpg" alt="us" id="country-img">
+                                              </button>
+                                        </div>
+                                        <div class="bar p8-12">
+                                              <button><i class="fa-solid fa-border-all"></i></button>
+                                        </div>
+                                        <div class="fullscreen p8-12">
+                                              <button><i class="fa-solid fa-expand"></i></button>
+                                        </div>
+                                        <div class="notification p8-12">
+                                              <button><i class="fa-regular fa-bell"></i></button>
+                                        </div>
+                                  </div>
+                                  <div class="account p8-12">
+                                        <i class="d-flex align-center">
+                                              <div class="user-icon">
+                                                    <img src="../images/avatar-2.jpg" alt="avatar-2">
+                                              </div>
+                                              <div class="user-name">
+                                                    Kevin <i class="fa-solid fa-angle-down"></i>
+                                              </div>
+                                        </i>
+                                  </div>
+                                  <div class="settings p8-12">
+                                        <button><i class="fa-solid fa-gear"></i></button>
+                                  </div>
+                            </div>
+                            
+                      </div>
+                </div>
+          </header>
+            <div class="main-area">
+                  
+                  <div class="page-title">
+                        <div class="container">
+                              <div class="row">
+                                    <div class="w">
+                                          <h2>apex chart</h2>
+                                    </div>
+                                    <div class="w-2">
+                                        <b>charts</b>  > apex charts
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  
+                  <section class="graph-area mb-24">
+                    <div class="container">
+                          <div class="row">
+                                <div class="w-6">
+                                    <div class="mb-24 py-20 chart">
+                                        <div class="card-heading">
+                                            <h4 class="mb-16 fs-15 fw-400 f-inter">Line with Data Labels</h4>
+                                      </div>
+                                      <div id="chart1">
+
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="w-6">
+                                    <div class="mb-24 py-20 chart">
+                                        <div class="card-heading">
+                                            <h4 class="mb-16 fs-15 fw-400 f-inter">Dashed Line</h4>
+                                      </div>
+                                      <div id="chart2">
+
+                                      </div>
+                                    </div>
+                                    
+                                 </div>
+                                 
+                                 <div class="w-6">
+                                    <div class="mb-24 py-20 chart">
+                                        <div class="card-heading">
+                                            <h4 class="mb-16 fs-15 fw-400 f-inter">Spline Area</h4>
+                                      </div>
+                                      <div id="chart3">
+
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="w-6">
+                                    <div class="mb-24 py-20 chart">
+                                        <div class="card-heading">
+                                            <h4 class="mb-16 fs-15 fw-400 f-inter">Column Charts</h4>
+                                      </div>
+                                      <div id="chart4">
+
+                                      </div>
+                                    </div>
+                                    
+                                 </div>
+                                 <div class="w-6">
+                                    <div class="mb-24 py-20 chart">
+                                        <div class="card-heading">
+                                            <h4 class="mb-16 fs-15 fw-400 f-inter">Column with Data Labels</h4>
+                                      </div>
+                                      <div id="chart5">
+
+                                      </div>
+                                    </div>
+                                    
+                                 </div>
+                                 <div class="w-6">
+                                    <div class="mb-24 py-20 chart">
+                                        <div class="card-heading">
+                                            <h4 class="mb-16 fs-15 fw-400 f-inter">Bar Chart</h4>
+                                      </div>
+                                      <div id="chart6">
+
+                                      </div>
+                                    </div>
+                                    
+                                 </div>
+                                 <div class="w-6">
+                                    <div class="mb-24 py-20 chart">
+                                        <div class="card-heading">
+                                            <h4 class="mb-16 fs-15 fw-400 f-inter">Line, Column & Area Chart</h4>
+                                      </div>
+                                      <div id="chart7">
+
+                                      </div>
+                                    </div>
+                                    
+                                 </div>
+                                 <div class="w-6">
+                                    <div class="mb-24 py-20 chart">
+                                        <div class="card-heading">
+                                            <h4 class="mb-16 fs-15 fw-400 f-inter">Radial Chart</h4>
+                                      </div>
+                                      <div id="chart8">
+
+                                      </div>
+                                    </div>
+                                    
+                                 </div>
+                                 <div class="w-6">
+                                    <div class="mb-24 py-20 chart">
+                                        <div class="card-heading">
+                                            <h4 class="mb-16 fs-15 fw-400 f-inter">Pie Chart</h4>
+                                      </div>
+                                      <div id="chart9">
+
+                                      </div>
+                                    </div>
+                                    
+                                 </div>
+                                 <div class="w-6">
+                                    <div class="mb-24 py-20 chart">
+                                        <div class="card-heading">
+                                            <h4 class="mb-16 fs-15 fw-400 f-inter">Donut Chart</h4>
+                                      </div>
+                                      <div id="chart10">
+
+                                      </div>
+                                    </div>
+                                    
+                                 </div>
+                          </div>
+                    </div>
+              </section>
+            </div>     
+      </main>
+      <!-- script -->
+      <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+      <script src="../js/chart.js"></script>
+          
+      
+      <!-- jquery -->
+      <script src="../js/script.js"></script>
+</body>
+</html>
