@@ -13,7 +13,7 @@ I am a passionate backend development student with a strong interest in building
 - Backend development
 - Learning new backend frameworks and databases
 - Optimizing server-side performance
-- 
+  
 ### Contact Me
 - priyupatel0987@gmail.com
 - www.linkedin.com/in/priya-patel-4571592b9
